@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huỳnh Thị Cẩm Giang</title>
+    <style>
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #0d1b2a, #1b3a4b, #0d2137);
+            font-family: 'Segoe UI', Roboto, sans-serif;
+            overflow-x: hidden;
+        }
+
+        .title {
+            color: #38bdf8;
+            font-size: 2.6rem;
+            font-weight: 900;
+            margin-bottom: 40px;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            text-shadow: 0 0 14px rgba(56, 189, 248, 0.7), 3px 3px 0px #000;
+            text-align: center;
+            padding: 0 16px;
+        }
+
+        .button-container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            width: 90%;
+            max-width: 440px;
+        }
+
+        .btn {
+            display: block;
+            text-align: center;
+            padding: 16px 20px;
+            font-size: 1.15rem;
+            font-weight: bold;
+            text-decoration: none;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            border-radius: 10px;
+            transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+            position: relative;
+        }
+
+        .btn:nth-child(odd) {
+            background: linear-gradient(135deg, #0ea5e9 0%, #06b6d4 100%);
+            color: #fff;
+            border: 2px solid #0ea5e9;
+            box-shadow: 0 4px 18px rgba(14, 165, 233, 0.45);
+        }
+
+        .btn:nth-child(odd):hover {
+            background: linear-gradient(135deg, #06b6d4 0%, #0ea5e9 100%);
+            color: #fff;
+            border-color: #7dd3fc;
+            box-shadow: 0 0 24px rgba(56, 189, 248, 0.7);
+            transform: scale(1.04);
+        }
+
+        .btn:nth-child(even) {
+            background: linear-gradient(135deg, #0c2d3f 0%, #164e63 100%);
+            color: #38bdf8;
+            border: 2px solid #0ea5e9;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+        }
+
+        .btn:nth-child(even):hover {
+            background: linear-gradient(135deg, #164e63 0%, #0ea5e9 100%);
+            color: #fff;
+            border-color: #7dd3fc;
+            box-shadow: 0 0 22px rgba(14, 165, 233, 0.6);
+            transform: scale(1.04);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="title">Huỳnh Thị Cẩm Giang</div>
+
+    <div class="button-container">
+        <a href="https://huynhthicamgiang2007.github.io/GIOITHIEU/" target="_blank" class="btn">Giới Thiệu</a>
+        <a href="https://huynhthicamgiang2007.github.io/TRANGDANGNHAP/" target="_blank" class="btn">Trang Đăng Nhập TVU</a>
+        <a href="https://huynhthicamgiang2007.github.io/TRANGDANGKY/" target="_blank" class="btn">Trang Đăng Ký</a>
+        <a href="https://huynhthicamgiang2007.github.io/BAINHAC/" target="_blank" class="btn">Danh Sách Nhạc</a>
+        <a href="https://huynhthicamgiang2007.github.io/BAITHO/" target="_blank" class="btn">Thơ</a>
+    </div>
+
+</body>
+</html>
